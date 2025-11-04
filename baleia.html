@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="./css/projeto.css">
+<title>Segredo do Mar</title>
+
+</head>
+<body>
+<div id="ocean-anim" aria-hidden="true"></div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-mid fixed-top shadow-sm" aria-label="Menu principal">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+      <img src="./img/dolphin-logo-vector-icon-design-animais-marinhos-tipos-de-peixe-mamiferos-adoram-voar-e-saltar_557439-2002.png" alt="Logo" width="36" height="36" class="rounded-circle">
+      <span class="fw-bold">Segredo do Mar</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#topnav" aria-controls="topnav" aria-expanded="false" aria-label="Alternar navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="topnav">
+      <ul class="navbar-nav align-items-lg-center gap-lg-2">
+        <li class="nav-item"><a class="nav-link" href="index.html#home">🏠 Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#sobre">ℹ️ Sobre</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#conteudo">📚 Conteúdo</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#galeria">🖼️ Galeria</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#contato">📬 Contato</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main class="container content-push py-4">
+  <h1 class="h2 mb-3">🐋 Baleias</h1>
+  <p class="lead">As maiores criaturas do oceano, com rotas migratórias extensas.</p>
+  <div class="row g-3">
+    <!-- Keep max 3 per row via col-lg-4 -->
+    <div class="col-12 col-md-6 col-lg-4">
+      <article class="card bg-mid h-100 shadow-md">
+        <img src="./img/franca.jpg" class="card-img-top obj-cover" alt="Imagem 1">
+        <div class="card-body">
+          <h3 class="h5">Baleia-franca</h3>
+          <p class="mb-0">A baleia-franca (Eubalaena australis) é uma espécie ameaçada que habita principalmente o hemisfério sul. Caracteriza-se pelo corpo robusto e a presença de calosidades na cabeça, que ajudam na identificação individual.</p>
+        </div>
+      </article>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <article class="card bg-mid h-100 shadow-md">
+        <img src="./img/jubarte.jpg" class="card-img-top obj-cover" alt="Imagem 2">
+        <div class="card-body">
+          <h3 class="h5">Baleia-jubarte</h3>
+          <p class="mb-0">A baleia-jubarte (Megaptera novaeangliae) é conhecida por suas acrobacias e cantos complexos. Ela migra grandes distâncias entre áreas de alimentação em águas frias e áreas de reprodução em águas tropicais.</p>
+        </div>
+      </article>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <article class="card bg-mid h-100 shadow-md">
+        <img src="./img/Baleia-azul.jpg" class="card-img-top obj-cover" alt="Imagem 3">
+        <div class="card-body">
+          <h3 class="h5">Baleia-azuls</h3>
+          <p class="mb-0">>A baleia-azul (Balaenoptera musculus) é o maior animal do planeta, podendo atingir até 30 metros de comprimento e pesar mais de 170 toneladas. Habita oceanos de águas frias e temperadas e se alimenta principalmente de krill.</p>
+        </div>
+      </article>
+    </div>
+     <div class="col-12 col-md-6 col-lg-4">
+      <article class="card bg-mid h-100 shadow-md">
+        <img src="./img/beluga.png" class="card-img-top obj-cover" alt="Imagem 2">
+        <div class="card-body">
+          <h3 class="h5">Baleia-beluga</h3>
+          <p class="mb-0">A baleia-beluga (Delphinapterus leucas) é conhecida como "canário do mar" devido à sua vocalização diversificada. Habita águas árticas e subárticas e possui um corpo branco característico</p>
+        </div>
+      </article>
+    </div>
+     <div class="col-12 col-md-6 col-lg-4">
+      <article class="card bg-mid h-100 shadow-md">
+        <img src="./img/orca.avif" class="card-img-top obj-cover" alt="Imagem 2">
+        <div class="card-body">
+          <h3 class="h5">orca</h3>
+          <p class="mb-0">A orca (Orcinus orca), também conhecida como baleia assassina, é um dos predadores mais eficientes do oceano. Vive em grupos sociais complexos e habita diversos oceanos ao redor do mundo.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+
+  <hr class="my-5">
+
+  <section aria-label="Galeria">
+    <h2 class="h4">🖼️ Galeria</h2>
+    <div class="row g-3">
+      <div class="col-12 col-md-6 col-lg-4">
+        <a href="./img/placeholder1.jpg" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-bs-image="./img/baleia_1280x853.png">
+          <img src="./img/baleia_1280x853.png" class="img-fluid rounded shadow-sm" alt="">
+        </a>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <a href="./img/placeholder2.jpg" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-bs-image="./img/beluga_1_1280x853.png">
+          <img src="./img/beluga_1_1280x853.png" class="img-fluid rounded shadow-sm" alt="">
+        </a>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <a href="./img/orca_1280x853.jpg" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-bs-image="../img/orca_1280x853.jpg">
+          <img src="./img/orca_1280x853.jpg" class="img-fluid rounded shadow-sm" alt="">
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Modal -->
+<div class="modal fade" id="lightboxModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-mid border-0">
+      <div class="modal-body p-0">
+        <img id="lightboxImage" src="" alt="" class="w-100 rounded-top">
+      </div>
+      <div class="modal-footer border-0 justify-content-center">
+        <button type="button" class="btn btn-accent" data-bs-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="py-4 text-center small text-sand-70">
+  <div class="container">Feito com ❤️ para estudar a vida marinha — 2025</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./js/site.js"></script>
+
+</body>
+</html>
